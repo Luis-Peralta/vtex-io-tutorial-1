@@ -1,0 +1,29 @@
+/* .itemContainer--department::before{
+    content: url(assets/icons-menu/icon1.svg);
+    width: 64px;
+    height: 64px;
+} */
+
+.departmentLink,
+.section--department{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container{
+    background-color: rgb(144, 86, 86);
+}
+
+.departmentLink{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* .firstLevelLink{
+    background-color: aquamarine;
+} */
+
+/* .secondLevelLink{
+    background-color: tomato;
+} */

@@ -1,0 +1,36 @@
+.flexCol--deparment-1::before{
+    content: url(assets/icons-menu/icon1.svg);
+    position: absolute;
+    margin-left: 2rem;
+    width: 64px;
+    height: 64px;
+}
+.flexCol--deparment-2::before{
+    content: url(assets/icons-menu/icon2.svg);
+    position: absolute;
+    margin-left: 2rem;
+    width: 64px;
+    height: 64px;
+}
+.flexCol--deparment-3::before{
+    content: url(assets/icons-menu/icon3.svg);
+    position: absolute;
+    margin-left: 2rem;
+    width: 64px;
+    height: 64px;
+}
+.flexCol--deparment-4::before{
+    content: url(assets/icons-menu/icon4.svg);
+    position: absolute;
+    margin-left: 2rem;
+    width: 64px;
+    height: 64px;
+}
+
+.flexCol--deparment-4 :global(.vtex-category-menu-2-x-firstLevelLink){
+    background-color: aquamarine;
+}
+
+.flexCol--deparment-4 :global(.vtex-category-menu-2-x-secondLevelLink){
+    background-color: tomato;
+}
